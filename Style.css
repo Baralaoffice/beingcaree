@@ -1,0 +1,378 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    background: #ffc0cb4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+a {
+    text-decoration: none;
+}
+.warrper{
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.container{
+    width: 91%;
+    margin: auto;
+}
+
+/* header css */
+header {
+    width: 100%;
+    clear: both;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+
+.header {
+    width: 100%;
+    float: left;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+
+.logo a {
+    height: 135px;
+    width: auto;
+    float: left;
+    display: flex;
+}
+
+.logo a img {
+    width: 100%;
+    display: block;
+}
+
+.nav {
+    width: 70%;
+    float: left;
+    clear: both;
+}
+
+nav {
+    margin: 0px 12px;
+}
+
+.nav nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav nav ul li a {
+    color: #2697d3;
+    color: #2697d3;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    padding: 10px 25px;
+}
+
+
+/* main section css */
+main{
+    width: 100%;
+    float: left;
+    clear: both;
+    background-image: url('./img/pexels-photo-3184405.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: #1d16166e;
+    background-blend-mode: color;
+    /* height: 100vh; */
+}
+.maindiv{
+    width: 100%;
+    padding: 200px 0px 200px 0px;
+    text-align: initial;
+    color: #FFFFFF;
+}
+.heading {
+    width: 50%;
+}
+.heading h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.3em;
+    margin-bottom: 15px;
+}
+.heading p{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+.btn {
+    margin-top: 57px;
+}
+.btn button {
+    font-size: 16px;
+    background-color: #102136;
+    padding: 16px 23px 16px 23px;
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    margin-right: 89px;
+}
+.botton-2{
+    background: transparent !important;
+    border: 1px solid !important;
+    padding: 15px 23px 15px 23px !important;
+}
+section{
+    width: 100%;
+    float: left;
+    clear: both;
+    background: #fdfdfd;
+    padding:60px 0 30px 0 ;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+.row h1{
+    font-size: 50px;
+    font-weight: 800;
+    text-decoration: underline;
+    color: #102136;
+    margin-bottom: 24px;
+}
+.col {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+.index-1 {
+    margin-bottom: 30px;
+}
+.index-1 p {
+    line-height: 1.7;
+}
+.row1 {
+    width: 100%;
+    clear: both;
+    display: flex;
+    justify-content: center;
+    padding: 17px 0px;
+    align-items: center;
+}
+.hr{
+    width: 100%;
+    text-align: center;
+}
+.hr a{
+    display: inline-block;
+}
+.hr h3 {
+    font-size: 22px;
+    font-weight: 300;
+    margin: 9px;
+}
+.jobs{
+    width: 100%;
+    clear: both;
+    text-align: center;
+    padding: 11px;
+    margin-top: 49px;
+}
+.jobs h2{
+    color: #2296D2;
+    font-weight: 500;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 1.5;
+}
+.jobs button{
+    font-size: 30px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #2296D2;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #2296D2;
+    padding: 14px 21px 14px 21px;
+    margin-top: 33px;
+    border-radius: 9px;
+}
+.row2 {
+    width: 100%;
+  display: flex;
+  justify-content: space-between;
+  gap: 25px;
+}
+.home {
+  width: 100%;
+  float: left;
+}
+.home img {
+  width: 100%;
+  float: left;
+  height: 100%;
+}
+.section {
+  width: 100%;
+  float: left;
+}
+.head {
+  width: 100%;
+  float: left;
+}
+.head h2 {
+  color: #2296D2;
+  font-size: 35px;
+  font-weight: 800;
+  line-height: 1.3em;
+}
+.colem {
+  width: 100%;
+  float: left;
+  margin: 20px 0;
+  border-radius: 9px;
+  background: #f3f5f9;
+  display: flex;
+  align-items: center;
+    padding: 0 25px;
+}
+.colem:hover {
+  background: #fff;
+}
+.colem a {
+    color: #2296d2;
+    display: block;
+    border-radius: 50%;
+    background: #e6e4f9;
+    font-size: 25px;
+    padding: 20px;
+}
+.colem p {
+    margin-left: 25px;
+    font-size: 17px;
+    font-weight: 700;
+}
+.career {
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+.career h2 {
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+.counter {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.item{
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.item span {
+    font-size: 69px;
+    font-weight: 300;
+    color: #4d5d6d;
+}
+.item p{
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 2.5;
+    color: #4d5d6d;
+
+}
+.itemcard {
+    position: relative;
+    overflow: hidden;
+    height: 267px;
+    width: 100%;
+}
+.info {
+    padding: 30px 15px;
+    bottom: -80px;
+    width: 100%;
+    text-align: left;
+    background-color: #2296D2;
+    position: absolute;
+    transition: all 0.3s linear;
+    top: auto;
+}
+.itemcard:hover .info{
+    bottom:0;
+
+}
+.info h3{
+    color: #fff;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.blue{
+    width: 100%;
+    clear: both;
+    background: #2296d2;
+    padding: 50px 0;
+    color: #fff;
+}
+.aboutbtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutbtn h2 {
+    font-size: 29px;
+    text-transform: capitalize;
+}
+
+.blubtn > button {
+    border: 0;
+    padding: 12px 21px;
+    border-radius: 5px;
+    background: #fff;
+    font-size: 17px;
+}
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #04336e;
+    padding: 24px;
+}
+.footer{
+text-align: center;
+}
+center{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}

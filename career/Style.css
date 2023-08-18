@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    background: #ffc0cb4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: #102136;
+
+}
+a {
+    text-decoration: none;
+}
+.warrper{
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.container{
+    width: 91%;
+    margin: auto;
+}
+
+/* header css */
+
+header{
+    width: 100%;
+    clear: both;
+    float: left;
+    /* position: absolute; */
+    top: 0;
+}
+.header{
+    width: 100%;
+    float: left;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    height: 135px;
+    width: auto;
+    float: left;
+    display: flex;
+}
+.logo a img {
+    width: 100%;
+    display: block;
+}
+.nav {
+    width: 70%;
+    float: left;
+    clear: both;
+}
+nav {
+    margin: 0px 12px;
+}
+.nav nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav nav ul li a{
+    color:#2697d3;
+    color: #2697d3;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    padding: 10px 25px;
+}
+
+/* main section css  */
+
+section {
+    width: 100%;
+    float: left;
+    clear: both;
+    background: #fdfdfd;
+    padding:170px 0;
+}
+.row{
+    width: 100%;
+    clear: both;
+}
+.col {
+    max-width: 800px;
+    margin: auto;
+}
+form {
+    width: 100%;
+    float: left;
+    background: #eee;
+}
+.inputBox{
+    float: left;
+    padding-left: 0.5em;
+    width: 50%;
+}
+label{
+    display: none;
+}
+.search_jobs{
+    width: 100%;
+    float: left;
+    padding:1em;
+}
+input#search_location {
+    height: 40px;
+    font-size: 16px;
+    padding: 0 12px;
+    border: 1px solid #e7ebee;
+    background: #eeeeee;
+    border-radius: 3px;
+    width: 100%;
+}
+input#search_keywords{
+    height: 40px;
+    font-size: 16px;
+    padding: 0 12px;
+    border: 1px solid #e7ebee;
+    background: #eeeeee;
+    border-radius: 3px;
+    width: 100%;
+}
+.remote {
+    width: 50%;
+    float: right;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+}
+.remote label{
+    display: inline-block;
+    font-size: 15px;
+    color: #4d5d6d;
+}
+.search_categories {
+    width: 100%;
+    float: left;
+    margin-top: 13px;
+}
+input.select2-search {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    cursor: text;
+    display: block;
+    min-height: 32px;
+    height: 50px;
+    font-size: 100%;
+    padding: 0 10px;
+}
+.search_submit {
+    width: 100%;
+    float: left;
+    padding-top: 0.4em;
+}
+input[type="submit"] {
+    width: 100%;
+    background: #2296d2;
+    padding: 13px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.joblists {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    float: left;
+}
+.post img {
+    width: 42px;
+    height: 42px;
+    float: left;
+    margin-right: 1em;
+    }
+
+/*
+.joblists{
+width: 100%;
+float: left;
+display: flex;
+align-content: center;
+justify-content: space-between;
+padding-top: 20px;
+border-bottom: 1px solid #eee;
+}
+.post {
+display: flex;
+list-style: none outside;
+padding: 0;
+margin: 0;
+border-bottom: 1px solid #eee;
+}
+.joblist .post a {
+display: block;
+padding: 1em 1em 1em 2em;
+border: 0;
+overflow: hidden;
+position: relative;
+line-height: 1.5em;
+text-decoration: none;
+}
+
+.position {
+float: left;
+width: 65%;
+padding: 0 0 0 42px;
+line-height: 1.5em;
+}
+.locetion {
+width: 27%;
+float: left;
+font-size:larger ;
+color: #a4a4a4;
+}
+.date {
+width: 21%;
+float: left;
+font-size: large;
+text-align: end
+}
+.row{
+    width: 100%;
+    clear: both;
+}

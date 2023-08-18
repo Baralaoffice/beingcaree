@@ -1,0 +1,217 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-size: inherit;
+    text-align: inherit;
+    line-height: inherit;
+    overflow-x: hidden;
+    overflow-wrap: break-word;
+    background: #ffc0cb4a;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+a {
+    text-decoration: none;
+}
+.warrper{
+    width: 100%;
+    float: left;
+    clear: both;
+}
+.container{
+    width: 91%;
+    margin: auto;
+}
+
+/* header css */
+
+header{
+    width: 100%;
+    clear: both;
+    float: left;
+    position: absolute;
+    top: 0;
+}
+.header{
+    width: 100%;
+    float: left;
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+}
+.logo{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+.logo a{
+    height: 135px;
+    width: auto;
+    float: left;
+    display: flex;
+}
+.logo a img {
+    width: 100%;
+    display: block;
+}
+.nav {
+    width: 70%;
+    float: left;
+    clear: both;
+}
+nav {
+    margin: 0px 12px;
+}
+.nav nav ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.nav nav ul li a{
+    color:#2697d3;
+    color: #2697d3;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    padding: 10px 25px;
+}
+
+
+/* main section css start */
+
+main{
+    width: 100%;
+    float: left;
+    clear: both;
+    background-image: url('../img/2484157.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-color: #1d16166e;
+    background-blend-mode: color;
+    /* height: 100vh; */
+}
+.maindiv{
+    width: 100%;
+    padding: 200px 0px 200px 0px;
+    text-align: center;
+}
+.maindiv div h2{
+    color: #FFFFFF;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: 1.3em;
+}
+
+section{
+    width: 100%;
+    float: left;
+    clear: both;
+    background: #fdfdfd;
+}
+.card{
+width: 100%;
+clear: both;
+padding: 47px 19px;
+display: flex;
+    gap: 42px;
+}
+
+.cartitem {
+    padding: 30px 30px 30px 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 20px 80px 0px rgb(192 198 211 / 25%);
+    background: #fff;
+    text-align: center;
+    width: 100%;
+    
+}
+.icon {
+    margin-bottom: 15px;
+}
+.icon i{
+    font-size: 34px;
+    color: #2296d2;
+}
+.content h3{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.tuoch{
+    width: 100%;
+    clear: both;
+    padding: 47px 19px
+}
+.tuochh{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.tuochh  h3{
+    font-weight: 800;
+    color: #102136;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 32px;
+}
+.form{
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: initial;
+}
+form label{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    color: #4d5d84;
+    margin-bottom: 6px;
+    display: inline-block;
+}
+form label span{
+    color: red;
+}
+input,textarea{
+    width: 100%;
+    padding: 13px 0;
+    background: #fff;
+    border: 1px solid #e7ebee;
+    border-radius: 3px;
+}
+form div{
+    margin-bottom: 17px;
+}
+button {
+    background-color: #2296d2;
+    padding: 11px 20px;
+    border: 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    border-radius: 8px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    clear: both;
+    background-color: #04336e;
+    padding: 24px;
+}
+.footer{
+text-align: center;
+}
+center{
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+}
